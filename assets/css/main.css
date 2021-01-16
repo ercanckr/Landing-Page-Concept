@@ -7,10 +7,18 @@
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 64px;
   color: var(--black);
 }
 h2 {
+  font-size: 48px;
+  color: var(--black);
+}
+h3 {
+  font-size: 32px;
+  color: var(--black);
+}
+h4 {
   font-size: 24px;
   color: var(--black);
 }
@@ -75,8 +83,9 @@ body {
   min-width: 608px;
 }
 .anaparagraf {
-  font-size: 24px;
+  font-size: 18px;
   color: var(--green);
+  margin-top: 15px;
 }
 .anabutton {
   font-size: 18px;
@@ -87,15 +96,21 @@ body {
   color: white;
   background-color: var(--green);
   margin-top: 24px;
+  cursor: pointer;
+}
+
+.anabutton:hover{
+  color: white;
+  background-color:#71A880;
 }
 .alt {
   display: flex;
   flex-direction: column;
   align-items: center;
   max-width: 895px;
-  margin: 40px auto;
+  margin: 120px auto 40px auto;
 }
-.alt >p{
+.alt > p {
   margin-top: 20px;
   font-size: 18px;
 }
@@ -123,13 +138,143 @@ body {
   transition: 0.3s ease box-shadow;
 }
 
-.kart:hover{
+.kart:hover {
   box-shadow: 0 0 5px 0 #0000002c;
 }
-.kart p{
+.kart p {
   margin-top: 15px;
   font-size: 18px;
 }
-.kart h2{
+.kart h2 {
   margin-top: 15px;
+}
+
+.orta-sol {
+  display: flex;
+  flex-direction: column;
+  width: 644px;
+  height: 334px;
+  margin-right: 200px;
+}
+.orta-sol>h2{
+  margin-top: 15px;
+}
+
+.ortasolparagraf{
+  margin-top: 30px;
+}
+.orta-sag {
+  display: flex;
+  flex-direction: column;
+  width: 484px;
+  height: 400px;
+  border: 2px solid var(--black);
+  border-radius: 10px;
+  padding-left: 20px;
+  box-shadow: 20px 20px 0px 0 var(--green);
+  margin-top: 50px;
+}
+
+.orta-alan {
+  display: flex;
+  align-items: center;
+  max-width: 1328px;
+  margin: 100px auto;
+}
+.member1 {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 15px;
+}
+.icerik {
+  margin-left: 20px;
+}
+.icerik p {
+  font-size: 16px;
+}
+.orta-sag h3 {
+  margin: 15px;
+}
+
+.orta2-sol {
+  display: flex;
+  flex-direction: column;
+  width: 484px;
+  height: 412px;
+  border: 2px solid black;
+  border-radius: 16px;
+}
+.orta2solkart {
+  display: flex;
+  margin-top: 25px;
+  margin-left: 20px;
+}
+
+
+.multicartp {
+  display: flex;
+}
+.solkartp {
+  display: flex;
+  margin: 30px;
+}
+
+.sorkartp2 {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+}
+
+.sorkartp3 {
+  margin-left: 70px;
+  flex-direction: column;
+  display: flex;
+}
+
+.sorkartp2 > h4 {
+  margin-top: 10px;
+}
+.sorkartp3 > h4 {
+  margin-top: 10px;
+}
+.orta2button {
+  align-items: center;
+  font-size: 18px;
+  word-spacing: 10px;
+  border: 1px solid transparent;
+  border-radius: 16px;
+  width: 404px;
+  height: 56px;
+  color: white;
+  background-color: var(--black);
+  margin-left: 38px;
+  margin-top: 50px;
+  cursor: pointer;
+}
+.orta2button:hover{
+  background-color: #303020;
+}
+.ortaicerik {
+  margin-left: 20px;
+}
+
+.orta-alan {
+  display: flex;
+  align-items: center;
+  max-width: 1338px;
+  margin: 100px auto;
+}
+
+.orta2-sag {
+  display: flex;
+  flex-direction: column;
+  width: 644px;
+  height: 334px;
+  margin-left: 200px;
+}
+.ortasagparagraf {
+  margin-top: 30px;
+}
+.ortasagh2 {
+  margin-top: 10px;
 }
